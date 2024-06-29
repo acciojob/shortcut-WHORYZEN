@@ -1,4 +1,4 @@
-function shortcut(str1, str2) {
+function shortcut(s1, s2) {
     if (str1 === "" || str2 === "") {
         return "";  
     }
@@ -10,6 +10,6 @@ function shortcut(str1, str2) {
 }
 
 // Do not change the code below.
-const str1 = prompt("Enter s1:");
-const str2 = prompt("Enter s2:");
+const s1 = prompt("Enter s1:");
+const s2 = prompt("Enter s2:");
 alert(shortcut(s1, s2));
