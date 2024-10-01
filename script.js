@@ -1,5 +1,6 @@
 function shortcut(str1, str2) {
-    if (str1 === "" || str2 === "") {
+    // Trim whitespace and check for empty strings
+    if (str1.trim() === "" || str2.trim() === "") {
         return "";  
     }
     
